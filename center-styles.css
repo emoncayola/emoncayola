@@ -1,0 +1,95 @@
+.center {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background: linear-gradient(to left, rgb(30, 30, 30), rgb(92, 92, 92));
+    margin: -10px;
+    padding: 80px 40px 100px 40px;   
+}
+
+.text-side {
+    display: flex;
+    flex-direction: column;
+    padding-right: 20em;
+    
+}
+
+.text-side > .text :nth-child(1){
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    
+}
+
+.text-side > .text img {
+    width: 40px;
+}
+
+.bolded { font-weight: bold; }
+
+
+.text-side > .text :nth-child(2){
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    color: rgb(154, 154, 154);
+}
+
+ .clik-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding-right: 30px;
+    
+ }
+
+ .clik-buttons > .sing-up {
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: black;
+    background-color: #67c867;
+    padding: 20px 25px;
+    border-radius: 4px;
+    margin-right: 30px;
+ }
+
+ .clik-buttons > .sing-up a{
+    color: black;
+    text-decoration: none;
+ }
+
+ .clik-buttons >.sing-up:hover {background-color: #67c8679b;}
+ .clik-buttons >.sing-up:hover a {color: white;}
+ .clik-buttons >.learn:hover {background-color: #dedede;}
+ .clik-buttons >.learn:hover a{color: black;}
+
+
+
+
+
+ .clik-buttons > .learn {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    font-size: 20px;
+    background-color: #000000;
+    padding: 20px 40px;
+    border-radius: 4px;
+ }
+
+ .clik-buttons > .learn a{
+    color: white;
+    text-decoration: none;
+ }
+
+.center > .image-side > .title {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 20px;
+}
+
+
+.center > .image-side img {
+    width: 600px;
+    margin: 2px -30px -12px 0px;
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.9);
+}

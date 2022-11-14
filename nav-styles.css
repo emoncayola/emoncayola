@@ -1,0 +1,130 @@
+.navbar {
+    background-color: black;
+    margin: -10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    height: 40px;
+    align-items: center;
+    font-size: 20px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left > .logo img{
+    width: 200px;
+    height: 100%;
+    padding-right: 40px;   
+}
+
+.left > .options {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding-right: 30px;
+}
+
+.left > .options > .explore {
+    color: rgb(244, 244, 100) ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 6px;
+}
+
+.left > .options > .explore a{
+    color: yellow;
+    text-decoration: none;
+}
+
+.left > .options > .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.left > .options > .menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.left > .spark {
+    padding-top: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    opacity: 0.7;
+}
+.left > .spark a{
+    text-decoration: none;
+    color: white;
+}
+
+.right {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right a {color: white; text-decoration: none;}
+
+.create-button {
+    display: flex;
+    background-color: #4e4d4d;
+    padding: 20px 35px;
+    border-radius: 4px;
+    align-items: center;
+}
+
+.create-button > .create {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.create-button i {
+    color: rgb(107, 187, 107);
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.create-button i:active {
+    transform: rotate(3.142rad);
+}
+
+.create-button:hover {background-color: #ffffff7c;}
+
+
+.search i{
+    padding: 20px;
+    color: #777474;
+    font-size: 2em;
+}
+.search i:hover {color: rgba(255, 255, 255, 0.868);}
+
+.Log-in {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color: #4e4d4d;
+    padding: 20px 25px;
+    border-radius: 4px;
+}
+.Log-in:hover {background-color: #ffffff7c;}
+
+.Sing-up {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color: #4e4d4d;
+    padding: 20px 25px;
+    border-radius: 4px;
+}
+.Sing-up:hover {background-color: #ffffff7c;}
