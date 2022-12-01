@@ -2,12 +2,9 @@
     display: flex;
     color: white;
     justify-content: space-around;
-    align-content: center;
     background-color: rgb(69, 69, 69);
     padding: 20px 0px 20px 10px;
-    margin-top: 10px;
-    margin-left: -10px;
-    margin-right: -10px;
+    margin: 10px -10px 0px -10px;
     border: 1px white solid;
 }
 
@@ -34,10 +31,7 @@
     margin: -21px;
 }
 
-
 .end-bar {
-    display: flex;
     background-color: rgb(34, 34, 34);
     margin: 0px -10px -10px -10px;
-    height: 15vh;
 }
